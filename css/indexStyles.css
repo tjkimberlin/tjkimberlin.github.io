@@ -1,0 +1,365 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.navContainer{
+    max-width: 100%;
+}
+
+.img-logo{
+    width: 12vw;
+    height: auto;
+    
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 3.5rem;
+}
+
+
+
+.video-button{
+    color: white;
+    border-color: rgba(228, 3, 3, 0.835);
+    background-color: rgba(228, 3, 3, 0.835);
+    
+}
+
+.text-stripe{
+    width: 100vw;
+    background-color: rgba(82, 3, 3, 0.5);
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+
+.vidContent{
+    
+
+    width: 100%;
+    height: auto;
+}
+
+.vidContent video{
+    width: 100%;
+    z-index: 0;
+
+}
+
+
+.overlay{
+    
+    position: absolute;
+    top: 6em;
+    left: 3%;
+    z-index: 1;
+    color: white;
+    width: 65%;
+    
+    padding: 2em;
+
+}
+
+.btn-wrap{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+.row-content{
+    margin: 0px auto;
+    border-bottom: 1px ridge;
+    margin-bottom: 100px;
+    min-height: 400px;
+    padding: 3em;
+}
+
+.animation{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+}
+
+
+.footer{
+    background-color: rgb(160, 163, 169);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0F0F0F;
+}
+
+.bg{
+   
+    padding: 2%;
+    background: rgb(90, 90, 90);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+      
+}
+
+.bg2{
+    padding: 2%;
+    background-image: url("../img/girl.jpg");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg3{
+    padding: 2%;
+    background-image: url("../img/patient-home.jpg");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bubble-pic{
+    float: left;
+    width: 30%;
+    height: auto;
+    background-image: url('../img/bubble-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.box{
+    padding: 4em 0em 4em 0em;
+    color: black;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px ridge;
+    margin-bottom: 100px;
+    
+    
+}
+
+
+
+.boxText2{
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.box2{
+    padding: 4em;
+    color: white;
+    margin: auto;
+    width: 90%;
+    background-color: rgb(128, 125, 125, 0.7);
+    
+}
+
+
+.navbar{
+    max-width: 100%;
+
+}
+.navbar-colors{
+    background:white;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom: 5px;
+    
+  }
+
+.navbar .navbar-nav > li > a {
+    font-size: 1.1rem;
+    color: black;
+    
+}
+
+.active, .navbar .navbar-nav > li > a:hover{
+    color: black;
+    border-bottom: 1px solid rgb(76, 80, 84);
+    transition: .1s;
+}
+
+
+
+h3{
+    font-weight: lighter;
+    font-size: 2em;
+    color: rgb(9, 117, 160);
+}
+
+.boxText{
+    font-weight: 200;
+    font-size: 1.75em;
+}
+
+hr {
+    border: 1px solid white;
+    width: 25%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
+.hr2{
+    border: 0.5px solid grey;
+    width: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.hr3 {
+    border: 0.25px solid rgb(122, 121, 121);
+    width: 25%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
+
+
+.btn{
+    margin-top: 30px;
+    border-radius: 0;
+    font-size: 1rem;
+}
+
+.btn-outline-light:hover{
+
+    transition: .2s;
+    
+}
+
+
+.arrow { 
+    
+    width: 3rem; 
+    height: 3rem; 
+    transition: .2s; 
+    box-shadow: -3px 3px 0 white; 
+    transform: rotate(-45deg);
+
+} 
+
+.arrow:hover{
+    box-shadow: -3px 3px 0 rgb(57, 57, 57);;
+}
+
+.arrow-wrap{
+    text-align: center;
+}
+
+.arrow-tag{
+    display: inline-block;
+    margin-top: 2rem;
+
+}
+.indexImg{
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+}
+
+.animation{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 0;
+
+}
+
+
+
+
+@media (max-width: 1536px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    .arrow{
+        display: none;
+    }
+}
+
+@media (max-width: 1040px){
+    h1{
+        font-size: 2rem;
+
+    }
+    .boxText{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: 1em;
+    }
+
+    hr{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 855px){
+    .video-text{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 575px){
+    .bg{
+        background-image: url("../img/background-mobile.jpg");  
+    }
+    h3{
+        font-weight: lighter;
+        font-size: 1.5rem;
+    }
+    
+    .boxText{
+        font-weight: lighter;
+        font-size: 1rem;
+    }
+
+
+    .main{
+        padding-top: 10%;
+    }
+
+}
+
+

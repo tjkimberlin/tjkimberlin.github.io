@@ -1,0 +1,249 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bg{
+
+    padding: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-image: url("../img/business.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+.box{
+    width: 70%;
+    background:transparent;
+    padding: 4em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5)
+    
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+    margin-top: 5%;
+}
+
+.img-logo{
+    width: 12vw;
+    height: auto;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: none;
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+    transition-duration: .5s;
+ 
+}
+
+button:focus{
+    outline: none;
+}
+
+
+
+.text-stripe{
+    width: 100vw;
+    background-color: rgba(150, 144, 144, 0.8);
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.management-text{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 3px;
+    margin: 2em 0;
+}
+
+.title-text{
+    font-style: italic;
+}
+
+.name-text{
+    font-weight: 200;
+    font-size: 2rem;
+    color: rgb(194, 0, 0);
+    padding-top: .5em;
+    
+}
+
+.name-text-modal{
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding-top: .5em;
+    color: rgb(194, 0, 0);
+}
+
+
+h1{
+    font-weight: lighter;
+    font-size: 3.5rem;
+}
+.navbar-colors{
+    background:white;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom: 5px;
+    
+  }
+
+.navbar .navbar-nav > li > a {
+    font-size: 1.1rem;
+    color: black;
+    
+}
+
+.active, .navbar .navbar-nav > li > a:hover{
+    color: black;
+    border-bottom: 1px solid rgb(76, 80, 84);
+    transition: .1s;
+}
+
+
+
+h2{
+    font-weight: 150;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+
+
+hr {
+    border: 1px solid black;
+    width: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.img-face{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+.modal-face{
+    width: 50%;
+    min-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.face-btn{
+    width: 100%;
+    height: auto;
+}
+
+.description-text{
+   
+}
+
+
+
+
+.content-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
+
+
+.footer{
+    background-color: rgb(160, 163, 169);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0F0F0F;
+}
+
+/* The Modal (background) */
+.modal-wrap {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .modal-text-wrap{
+      padding: 3em 0;
+  }
+  
+  /* Modal Content/Box */
+  .modal-slide {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .modal-img-wrap{
+      width: 25%;
+      height: 100%;
+      float: left;
+  }
+  
+  /* The Close Button */
+  .exit {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .exit:hover,
+  .exit:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@media (max-width: 600px){
+
+
+    h2{
+        font-weight: lighter;
+        font-size: 1.5rem;
+
+    }
+    .mobile-img{
+        max-width: 330px;
+    }
+}
+
+
+
+

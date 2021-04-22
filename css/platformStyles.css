@@ -1,0 +1,183 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+    margin-top: 5%;
+}
+
+.img-logo{
+    width: 12vw;
+    height: auto;
+    
+}
+
+
+.bg{
+
+    padding: 6%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+      
+    /* The image used */
+    background-image: url("../img/patient.jpg");
+    
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+.navbar-colors{
+    background:white;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom: 5px;
+    
+  }
+
+.navbar .navbar-nav > li > a {
+    font-size: 1.1rem;
+    color: black;
+    
+}
+
+.active, .navbar .navbar-nav > li > a:hover{
+    color: black;
+    border-bottom: 1px solid rgb(76, 80, 84);
+    transition: .1s;
+}
+
+.box{
+    font-family: 'Roboto', sans-serif;
+    background:transparent;
+    padding: 4em;
+    color: black;
+    margin: 50px;
+    
+}
+
+h3{
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+
+.boxText{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+hr {
+    border: 1px solid black;
+    width: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.arrow { 
+
+    
+    width: 50px; 
+    height: 50px; 
+    transition: .2s; 
+    box-shadow: -3px 3px 0 black; 
+    transform: rotate(-45deg);
+    position: relative;
+    top: 2rem;
+    margin: auto;
+} 
+
+.arrow:hover{
+    box-shadow: -3px 3px 0 grey;
+}
+
+.content-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
+
+.content-img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    padding: 5%;
+}
+
+.footer{
+    background-color: rgb(160, 163, 169);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0F0F0F;
+}
+
+.body-img{
+    width: 100%;
+    height: auto;
+}
+
+.list-desktop{
+    margin-left: -80%;
+    padding: 0;
+}
+
+.list-desktop2{
+    margin-left: -130%;
+    padding: 0;
+}
+
+
+h5{
+    margin-left: 0.7em;
+}
+
+@media (max-width: 600px){
+    .bg{
+        background-image: url("../img/patient.jpg");
+    }
+
+    h3{
+        font-weight: lighter;
+        font-size: 1.5rem;
+    }
+    
+    .boxText{
+        font-weight: lighter;
+        font-size: 1rem;
+    }
+
+    .mobile-img{
+        max-width: 330px;
+    }
+}
+
+
+
+
